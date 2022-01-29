@@ -1,0 +1,40 @@
+:root {
+    --gainsboro: #d9ead3;
+    --dim-gray: #787371;
+    --black: #231010;
+}
+
+html, body {
+    background-color: var(--gainsboro);
+    color: var(--black);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: var(--black);
+    padding: 15px 40px;
+}
+
+header h1 {
+    background-color: var(--gainsboro);
+    width: 25%;
+    padding: 8px;
+    box-shadow: 5px 5px var(--dim-gray);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+header a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+nav a {
+    color: var(--gainsboro);
+    margin: 0 50px 0 0;
+}
+
+main {
+    padding: 0 40px 0 40px;
+}
