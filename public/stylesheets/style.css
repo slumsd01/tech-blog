@@ -17,7 +17,7 @@ header {
 }
 
 .top {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -40,8 +40,16 @@ nav a {
     margin: 0 50px 0 0;
 }
 
+#logout {
+    border: none;
+    background: var(--black);
+    color: var(--gainsboro);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 main {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -65,4 +73,26 @@ article.post {
 
 .post-body p {
     padding: 0 20px;
+}
+
+.login-header, .signup-header {
+    background-color: var(--black);
+    color: var(--gainsboro);
+    padding: 5px 20px;
+    margin: 15px 0 0 0;
+}
+
+.login-form, .signup-form {
+    padding: 10px 20px;
+    border: solid 2px var(--black);
+}
+
+.login-form input, .signup-form input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.login-form button, .signup-form input {
+    margin: 10px 0;
 }
