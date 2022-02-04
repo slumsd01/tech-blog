@@ -2,9 +2,12 @@
     {{#each posts as |post|}}
     <article class="post">
         <div class="post-header">
-            <h3 class="post-title">{{post.title}}</h3>
+            <a href="/post/{{post.id}}">
+                <h3 class="post-title">{{post.title}}</h3>
+            </a>
             <p>Posted by {{post.user.username}} <br>
-            on {{post.created_at}}</p>
+                on {{post.created_at}}
+            </p>
         </div>
         <div class="post-body">
             <p>({{post.post_body}})</p>

@@ -66,13 +66,34 @@ main {
     text-align: right;
 }
 
+.post-body p {
+    padding: 0 20px;
+}
+
 article.post {
     border: solid 2px var(--black);
     margin: 15px;
 }
 
-.post-body p {
-    padding: 0 20px;
+form.comment-form {
+    border: solid 2px var(--black);
+    margin: 15px;
+    padding: 20px;
+}
+
+.comment-form textarea {
+    width: 99%;
+}
+
+section.comment {
+    border: solid 2px var(--black);
+    margin: 15px;
+    padding: 20px
+}
+
+.meta {
+    text-align: center;
+    margin-top: 15px;
 }
 
 .login-header, .signup-header {
@@ -88,7 +109,7 @@ article.post {
 }
 
 .login-form input, .signup-form input {
-    width: 100%;
+    width: 98%;
     margin: 5px 0;
     padding: 5px;
 }
