@@ -66,6 +66,10 @@ main {
     text-align: right;
 }
 
+.post-header a {
+    color: var(--gainsboro);
+}
+
 .post-body p {
     padding: 0 20px;
 }
@@ -94,6 +98,7 @@ section.comment {
 .meta {
     text-align: center;
     margin-top: 15px;
+    font-weight: bold;
 }
 
 .login-header, .signup-header {
