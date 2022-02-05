@@ -140,6 +140,7 @@
     "esprima": "^4.0.1",
     "execa": "^5.1.1",
     "exit": "^0.1.2",
+    "express": "*",
     "express-handlebars": "^6.0.2",
     "expect": "^27.4.6",
     "expand-brackets": "^2.1.4",
