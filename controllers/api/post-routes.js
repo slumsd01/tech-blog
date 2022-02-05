@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Post, User, Comment } = require('../../models');
+const withAuth = require('../../utils/auth.js');
 
 // GET all posts
 router.get('/', (req, res) => {
@@ -84,6 +85,7 @@ router.post('/', withAuth, (req, res) => {
 router.put('/:id', withAuth, (req, res) => {
     Post.update(
         {
+            post_body: req.body.post_body,
             title: req.body.title
         },
         {
