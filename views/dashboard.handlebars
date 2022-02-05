@@ -1,9 +1,9 @@
 <section>
-  <h2>Create New Post</h2>
+  <h2 class="new-post-header">Create New Post</h2>
 
   <form class="new-post-form">
     <div>
-      <label for="post-title">Title</label>
+      <label for="post-title">Title:</label><br>
       <input type="text" id="post-title" name="post-title" />
     </div>
     <div>
@@ -14,8 +14,8 @@
 </section>
 
 {{#if posts.length}}
-<section>
-  <h2>Your Posts</h2>
+<section class="your-posts">
+  <h2 class="your-posts-header">Your Posts</h2>
     {{#each posts as |post|}}
       {{> post-info post}}
       <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>

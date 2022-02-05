@@ -53,6 +53,24 @@ main {
     margin: auto;
 }
 
+.your-posts {
+    border: solid 2px var(--black);
+    margin: 15px 0;
+    padding-bottom: 15px;
+}
+
+.your-posts-header {
+    background-color: var(--black);
+    color: var(--gainsboro);
+    padding: 5px 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.edit-link {
+    margin: 0 15px;
+}
+
 .post-header {
     background-color: var(--black);
     color: var(--gainsboro);
@@ -101,24 +119,32 @@ section.comment {
     font-weight: bold;
 }
 
-.login-header, .signup-header {
+.login-header, .signup-header, .new-post-header, .edit-header {
     background-color: var(--black);
     color: var(--gainsboro);
     padding: 5px 20px;
     margin: 15px 0 0 0;
 }
 
-.login-form, .signup-form {
+.login-form, .signup-form, .new-post-form, .edit-post-form {
     padding: 10px 20px;
     border: solid 2px var(--black);
 }
 
-.login-form input, .signup-form input {
+.login-form input, .signup-form input, .new-post-form input, .edit-post-form input {
     width: 98%;
     margin: 5px 0;
     padding: 5px;
 }
 
-.login-form button, .signup-form input {
+.new-post-form div, .login-form div, .signup-form div, .comment-form div, .edit-post-form div {
     margin: 10px 0;
+}
+
+#post-body {
+    width: 99%;
+}
+
+.edit-page {
+    margin-top: 15px;
 }
